@@ -1,0 +1,6 @@
+pytesseract
+Pillow
+nltk
+spacy
+opencv-python
+flask

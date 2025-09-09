@@ -1,0 +1,13 @@
+{
+  "name": "My Python Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {},
+  "extensions": [
+    "ms-python.python"
+  ],
+  "remoteUser": "vscode",
+  "workspaceFolder": "/workspace",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached"
+}
